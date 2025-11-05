@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Justin Bieber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="icone.png">
+</head>
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 1500px;
+    }
+
+    .parallax {
+        height: 600px;
+        background-image: url('https://i.pinimg.com/1200x/b4/91/75/b49175aa4b84d78d9228c4eeae546bb4.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: rgb(19, 17, 17);
+        text-align: center;
+    }
+    h2 {
+        background-color: rgba(106, 136, 235, 0.432);
+        padding: 5px;
+        box-shadow: 2px 2px 8px black;
+        cursor: url('varinha.png') 10 10, auto;
+        text-align: center;
+    }
+    .caixa {
+        background-color: rgb(106, 136, 235);
+        padding: 20px;
+    }
+
+    .sombra {
+        box-shadow: 2px 2px 8px black;
+    }
+
+    .fontenova {
+        font-family: "Story Script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        width: 600px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .card img {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .justin {
+        display:flex;
+    }
+    .hover{
+            background-color: rgba(14, 65, 233, 0.315);
+            padding: 20px;
+            transition: 0.4s;
+            box-shadow: 2px 2px 8px black;
+        }
+
+        .hover:hover{
+            background-color:rgb(19, 54, 85);
+            color: white;
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns:
+            repeat(auto-fit, minmax(150px, 5fr));
+            gap: 10px;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+</style>
+
+<body>
+    <div class="parallax">
+    </div>
+    <br>
+    <h1>Justin Bieber</h1>
+    <div class="caixa sombra">
+        • Justin Bieber (1994) é um cantor e compositor canadense de música pop e R&B. Conquistou diversos prêmios,
+        entre eles o Billboard Music Awards, o American Music Awards, o Brit Award, o Grammy Latino, o MTV Video Music
+        Awards e o Grammy Awards.
+    </div>
+    <br><br>
+    <div class="hover">• Em 2006, com 12 anos, participou de uma competição local chamada Stratford Idol, quando os integrantes tiveram aula de canto. Bieber ficou em segundo lugar.<br>
+    • Após a competição começou a postar o vídeo no YouTube, que foi visto pelo executivo de marketing Scooter Braun, que apresentou Bieber a alguns colegas que trabalhavam com música, entre eles os cantores Usher e Justin Timberlake.</div> 
+    <br><br><br>
+    <div class="justin">
+        <div class="card">
+            <img src="ji.jpg">
+            <h2>Infância</h2>
+            <p>• Justin Bieber nasceu em London, Canadá, no dia 01 de março de 1994. Filho de Jeremy Jack Bieber e
+                Pattie Malette, ficou na guarda da mãe após a separação do casal, quando estava com apenas 10 meses de
+                vida. Com três anos de idade já mostrava aptidão para a música. Ainda criança já cantava na igreja que
+                frequentava.</p>
+        </div>
+        <div class="card">
+            <img src="i.jpg">
+            <h2>Início de carreira</h2>
+            <p>• Em 2008, Justin Bieber iniciou sua carreira quando assinou oficialmente com a Island Records. Em 17 de
+                novembro de 2009 foi lançado o EP “My World”, que contou com a produção de The Drean e Tricky Stewart.
+            </p>
+        </div>
+        <div class="card">
+            <img src="jhh.jpg">
+            <h2>Casamento</h2>
+            <p>• Justin Bieber namorou a cantora Selena Gomes, e desde 2018 está casado com a modelo Hailey Baldwin.</p>
+        </div>
+    </div>
+    <details>
+        <summary>Clique aqui para ver seus álbuns de estudio</summary>
+        <p>• My World 2.0 (2010)<br>
+            •Believe (2012)<br>
+            •Purpose (2015)<br>
+            •Changes (2020)<br>
+            •Justice (2021)<br>
+            •SWAG (2025)<br>
+            •SWAG II (2025)</p>
+    </details>
+    <br><br><br>
+    <dialog open>Justin Bieber continua fazendo sucesso por uma combinação de fatores, incluindo sua adaptabilidade musical, sua capacidade de crescimento e reinvenção, o envolvimento contínuo de seus fãs e uma estratégia de negócios diversificada.</dialog>
+    <br><br><br><br><br>
+    <h1>Galeria:</h1>
+    <div class="galeria">
+        <div class="item"><img src="2.png" /></div>
+        <div class="item"><img src="3.jpg" /></div>
+        <div class="item"><img src="4.jpg" /></div>
+        <div class="item"><img src="5.jpg" /></div>
+        <div class="item"><img src="9.png" /></div>
+        <div class="item"><img src="8.png" /></div>
+        </div>
+    </div>
+</body>
+<!-- Plugin VLibras -->
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</html>
